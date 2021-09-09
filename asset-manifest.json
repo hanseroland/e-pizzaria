@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/e-pizzaria/static/js/main.46cefb46.chunk.js",
+    "main.js.map": "/e-pizzaria/static/js/main.46cefb46.chunk.js.map",
+    "runtime-main.js": "/e-pizzaria/static/js/runtime-main.1672567c.js",
+    "runtime-main.js.map": "/e-pizzaria/static/js/runtime-main.1672567c.js.map",
+    "static/js/2.e7d6d295.chunk.js": "/e-pizzaria/static/js/2.e7d6d295.chunk.js",
+    "static/js/2.e7d6d295.chunk.js.map": "/e-pizzaria/static/js/2.e7d6d295.chunk.js.map",
+    "static/js/3.e18dca65.chunk.js": "/e-pizzaria/static/js/3.e18dca65.chunk.js",
+    "static/js/3.e18dca65.chunk.js.map": "/e-pizzaria/static/js/3.e18dca65.chunk.js.map",
+    "index.html": "/e-pizzaria/index.html",
+    "static/js/2.e7d6d295.chunk.js.LICENSE.txt": "/e-pizzaria/static/js/2.e7d6d295.chunk.js.LICENSE.txt",
+    "static/media/air-jordan-transparent.b9386e05.png": "/e-pizzaria/static/media/air-jordan-transparent.b9386e05.png",
+    "static/media/featured3.66d68644.jpg": "/e-pizzaria/static/media/featured3.66d68644.jpg",
+    "static/media/nike-logo.8d1aedb2.png": "/e-pizzaria/static/media/nike-logo.8d1aedb2.png",
+    "static/media/pizza-5.19daec50.jpg": "/e-pizzaria/static/media/pizza-5.19daec50.jpg",
+    "static/media/product-1.36d084f3.jpg": "/e-pizzaria/static/media/product-1.36d084f3.jpg",
+    "static/media/product-2.4c066971.jpg": "/e-pizzaria/static/media/product-2.4c066971.jpg",
+    "static/media/product-3.115cc32b.jpg": "/e-pizzaria/static/media/product-3.115cc32b.jpg",
+    "static/media/sweet-2.d5cf1ad2.jpg": "/e-pizzaria/static/media/sweet-2.d5cf1ad2.jpg",
+    "static/media/sweet-3.badeecbe.jpg": "/e-pizzaria/static/media/sweet-3.badeecbe.jpg",
+    "static/media/sweet3.c495c742.jpg": "/e-pizzaria/static/media/sweet3.c495c742.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1672567c.js",
+    "static/js/2.e7d6d295.chunk.js",
+    "static/js/main.46cefb46.chunk.js"
+  ]
+}
