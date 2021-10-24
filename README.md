@@ -11,7 +11,15 @@ https://hanseroland.github.io/e-pizzaria/
 
 ## Captures
 ### Page d'accueil
-![Bannière](https://github.com/hanseroland/e-pizzaria/src/images/captures/localhost_3000_e-pizzaria_(iPad Pro).png)
+# ![baniere](https://github.com/hanseroland/e-pizzaria/blob/main/src/images/captures/localhost_3000_e-pizzaria_(iPad%20Pro)%20(1).png) 
+
+# ![panier](https://github.com/hanseroland/e-pizzaria/blob/main/src/images/captures/localhost_3000_e-pizzaria_(iPad%20Pro)%20(5).png)
+
+#![categorie](https://github.com/hanseroland/e-pizzaria/blob/main/src/images/captures/localhost_3000_e-pizzaria_(iPad%20Pro)%20(4).png)
+
+# ![responsive](https://github.com/hanseroland/e-pizzaria/blob/main/src/images/captures/localhost_3000_e-pizzaria_(iPhone%20X)%20(2).png)
+
+
 
 
 
