@@ -1,26 +1,31 @@
 import React from 'react'
-import {BrowserRouter as Router} from 'react-router-dom'
-import { GlobalStyle } from './globalStyles';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import { productData, productDataTwo } from './components/Products/data';
-import Feature from './components/Feature';
-import Footer from './components/Footer';
-import { NikeCard } from './components/nikeCard';
+import {BrowserRouter as Router, Switch} from 'react-router-dom'
+import HomeLayout from './layouts/HomeLayout';
+import Accueil from './pages/Accueil';
+import Panier from './pages/Panier';
+import AppRoutes from './layouts/AppRoutes';
+import { Provider } from 'react-redux';
+import { persistor, store } from './reducers/store';
+import { PersistGate } from 'redux-persist/integration/react';
+import Produit from './pages/Produit';
+import Categories from './pages/Categories';
 
 
-function App() {
+function App() { 
   return (
     <>
-     <Router basename={process.env.PUBLIC_URL}>
-           <GlobalStyle/>
-           <Hero/>
-           <Products heading='Choisissez votre préférée' data={productData} />
-           <Feature />
-           <Products heading='Gâteries sucrées pour vous' data={productDataTwo} />
-           <Footer />
-           
-     </Router>
+    <Provider  store={store}    >
+      {/*<PersistGate  loading={null} persistor={persistor} >*/}
+         <Router basename={process.env.PUBLIC_URL}>
+                <Switch>
+                      <AppRoutes   exact={true} path="/"   component={Accueil}  layout={HomeLayout} />
+                      <AppRoutes   path="/panier"   component={Panier}  layout={HomeLayout} />
+                      <AppRoutes   path="/produit/:id"   component={Produit}  layout={HomeLayout} />
+                      <AppRoutes   path="/categorie/:id"   component={Categories}  layout={HomeLayout} />
+              </Switch>
+          </Router>
+       {/* </PersistGate> */}
+     </Provider>
     </>
   );
 }

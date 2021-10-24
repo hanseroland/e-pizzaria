@@ -25,7 +25,6 @@ export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  object-fit: cover;
   box-shadow: 8px 8px #e31837;
 `;
 
@@ -36,7 +35,7 @@ export const ProductsHeading = styled.h1`
 `;
 
 export const ProductTitle = styled.h2`
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1.5rem;
 `;
 
@@ -50,9 +49,7 @@ export const ProductInfo = styled.div`
 `;
 
 export const ProductDesc = styled.p`
-  margin-bottom: 0.5rem;
-  height: 100px;
- 
+  margin-bottom: 1rem;
 `;
 export const ProductDimention = styled.div`
   display: flex;
@@ -70,7 +67,6 @@ export const FilterSize = styled.select`
 export const Filter = styled.div`
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
 
 `;
 
@@ -96,7 +92,7 @@ export const ProductPrice = styled.p`
 
 export const ProductButton = styled.button`
   font-size: 1rem;
-  padding: 0.5rem 2rem;
+  padding: 1rem 4rem;
   border: none;
   background: #e9ba23;
   color: #fff;

@@ -1,21 +1,22 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/pizza-5.jpg';
 
-export const HeroContainer = styled.div`
+
+export const SlideContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(${ImgBg});
+    url(${(props)=>props.img});
   height: 100vh;
   background-position: center;
   background-size: cover;
 `;
 
-export const HeroContent = styled.div`
+export const SlideContent = styled.div`
   height: calc(100vh - 80px);
+  margin-left:30px;
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
 `;
 
-export const HeroItems = styled.div`
+export const SlideItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,19 +35,19 @@ export const HeroItems = styled.div`
   }
 `;
 
-export const HeroH1 = styled.h1`
+export const SlideH1 = styled.h1`
   font-size: clamp(2rem, 9vw, 4rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
 `;
 
-export const HeroP = styled.p`
+export const SlideP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
 `;
 
-export const HeroBtn = styled.button`
+export const SlideBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;

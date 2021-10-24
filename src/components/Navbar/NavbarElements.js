@@ -8,6 +8,39 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   font-weight: 700;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+`; 
+
+export const NavCart = styled(Link)`
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+
+ p{
+   transform: translate((175%,100%));
+   font-weight: bold;
+   @media screen and (max-width: 480px){
+      display: none;
+   }
+ }
+
+`;
+
+export const NavBtn = styled.nav`
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+
 `;
 
 export const NavLink = styled(Link)`
@@ -22,23 +55,30 @@ export const NavLink = styled(Link)`
        position: absolute;
        top: 10px;
        left: 25px;
+       
    }
 `;
 
 export const NavIcon = styled.div`
- display: block;
- position: absolute;
- top: 0;
- right: 0;
- cursor: pointer;
- color: #fff;
- justify-content: center;
- padding: 10px;
- 
- 
+
+
+ margin-left: 2rem;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+
  p{
    transform: translate((175%,100%));
    font-weight: bold;
+   @media screen and (max-width: 480px){
+      display: none;
+   }
  }
 `;
 
