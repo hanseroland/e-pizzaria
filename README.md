@@ -1,3 +1,23 @@
+# E-PIZZARIA REACT REDUX
+
+Dans ce projet nous pratiquons la gestion d'un panier d'achat en ligne avec la la librairie Redux qui permet de gérer les états dans une application Web
+Pour la gestion d'état nous avons les actions, les types d'actions et le reducer
+
+## Pour commencer télécharger le projet ou cloner :
+$ git clone https://github.com/hanseroland/e-pizzaria
+
+## Tester le projet :
+https://hanseroland.github.io/e-pizzaria/
+
+## Captures
+### Page d'accueil
+![Bannière](https://github.com/hanseroland/e-pizzaria/src/images/captures/localhost_3000_e-pizzaria_(iPad Pro).png)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
